@@ -27,6 +27,17 @@ h2 {
     padding: 20px
 }
 
+.doggocontainer {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.doggoname {
+    font: bold
+}
+
 img {
     max-width: 250px;
     max-height: 150px;
@@ -34,9 +45,20 @@ img {
 
 .doglist {
     list-style-type:none;
-    background-color: #90DDF0;
-    display: inline-block; 
+    display: flex; 
+    margin: 0px;
+    padding-inline-start: 0px;
+    flex-wrap: wrap;
+    font-size: 12px;
     
+    
+}
+
+.doggofacts {
+    background-color: #90DDF0;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: black; 
 }
 
 .flex-container0 {
@@ -48,10 +70,14 @@ img {
 
 .flex-container1 {
     list-style-type: none;
-    flex-flow: row wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-   
+    display: flex;
+    /* flex-flow: wrap; */
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 1; 
     
 }
 
