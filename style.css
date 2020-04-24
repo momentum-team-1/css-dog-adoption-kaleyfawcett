@@ -47,8 +47,8 @@ h2 {
 }
 
 img {
-    max-width: 250px;
-    max-height: 150px;
+    width: 100%;
+    height: auto;
 }
 
 .doglist {
@@ -75,10 +75,61 @@ img {
 
 .flex-container1 {
     display: flex;
-    width: 25%;
     padding: 12px;
     flex-direction: column;
-    flex-basis: 25%;
+    flex-basis: 29%;
 
 }
 
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   font-family: "Oswald";
+   color: white;
+   background-color: #A7A6F2; 
+
+
+}
+
+.footerimage {
+    display: flex;
+    background-position: center;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 33%;
+    height: 150px;
+    align-items: stretch;
+    justify-content: center;
+    
+
+}
+
+.donate {
+    background-size: cover;
+    background-image: url(starter_files/images/donate.jpg);
+    object-fit: cover;
+    opacity: 0.6;
+    
+ 
+}
+
+.volunteer {
+    background-size: cover;
+    background-image: url(starter_files/images/volunteer.jpg);
+    object-fit: cover;
+    opacity: 0.6;
+    
+
+}
+
+.ourlocation {
+    background-size: cover;
+    background-image: url(starter_files/images/location.png);
+    object-fit: cover;
+    opacity: 0.6;
+
+}
